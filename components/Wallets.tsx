@@ -54,17 +54,17 @@ export default function NewWallet() {
             {selectedWallet ? `Wallet ${keys.indexOf(selectedWallet) + 1}` : `Wallet ${walletNo}`}
           </h2>
           <div className="text-4xl font-bold mb-2">
-            ${balance.toFixed(2)}
+            ${balance.toFixed(2)}(hardcoded)
           </div>
           <div className="text-sm text-gray-400">
-            ${balance.toFixed(2)} 0%
+            ${balance.toFixed(2)} 0%(hardcoded)
           </div>
         </div>
 
         <div className="flex justify-between mb-4">
-          <button className="bg-gray-700 text-white px-4 py-2 rounded">Receive</button>
-          <button className="bg-gray-700 text-white px-4 py-2 rounded">Send</button>
-          <button className="bg-gray-700 text-white px-4 py-2 rounded">Swap</button>
+          <button className="bg-gray-700 text-white px-4 py-2 rounded">Receive(hardcoded)</button>
+          <button className="bg-gray-700 text-white px-4 py-2 rounded">Send(hardcoded)</button>
+          <button className="bg-gray-700 text-white px-4 py-2 rounded">Swap(hardcoded)</button>
         </div>
 
         <div className="mb-4">
