@@ -3,8 +3,10 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useMnemonic } from "@/context/MnemonicContext";
 
 export default function Home() {
+  const { setMnemonic, mnemonic } = useMnemonic();
   const Router = useRouter();
   function pushToRoute() {
     Router.push('/createWallet')
