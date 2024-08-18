@@ -62,9 +62,10 @@ export default function NewWallet() {
         </div>
 
         <div className="flex justify-between mb-4">
-          <button className="bg-gray-700 text-white px-4 py-2 rounded">Receive(hardcoded)</button>
-          <button className="bg-gray-700 text-white px-4 py-2 rounded">Send(hardcoded)</button>
-          <button className="bg-gray-700 text-white px-4 py-2 rounded">Swap(hardcoded)</button>
+          <button className="bg-gray-700 text-white px-4 py-2 rounded">Receive</button>
+          <button className="bg-gray-700 text-white px-4 py-2 rounded">Send</button>
+          <button className="bg-gray-700 text-white px-4 py-2 rounded">Swap</button>
+          (workin on it)
         </div>
 
         <div className="mb-4">
