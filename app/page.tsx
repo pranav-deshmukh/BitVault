@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useMnemonic } from "@/context/MnemonicContext";
+import { FaWallet } from "react-icons/fa";
 
 export default function Home() {
   const { setMnemonic, mnemonic } = useMnemonic();
@@ -14,6 +15,7 @@ export default function Home() {
   return (
     <main className="w-full h-screen flex justify-center items-center">
       <div className="h-[600px] w-[600px] flex flex-col justify-center items-center">
+          <FaWallet className="text-6xl"/>
         <section className="h-[200px] w-full flex flex-col justify-center items-center">
           <span className="text-4xl font-semibold">Welcome to BitVault</span>
           <span className="text-blue-200">Let&apos;s get started.</span>

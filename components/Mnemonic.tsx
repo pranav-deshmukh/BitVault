@@ -44,7 +44,7 @@ export default function Mnemonic() {
           })}
           <span className="text-xs text-gray-500">{copySuccess}</span>
         </section>
-        <button onClick={()=>Router.push('/yourWallets')}>route</button>
+        <button className="mt-10 rounded-xl hover:bg-slate-200 w-[200px] h-12 bg-white text-black font-bold" onClick={()=>Router.push('/yourWallets')}>Go to your wallets</button>
       </div>
     </div>
   );
